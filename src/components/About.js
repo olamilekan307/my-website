@@ -23,6 +23,15 @@ const About = () => {
               <DiMongodb /> MongoDB
             </li>
           </ul>
+          <ul className="tech-mobile">
+            <li>
+              <FaReact /> <span className="tech-text">React.js</span> | 
+              <FaNodeJs /> <span className="tech-text">Node.js</span> | 
+              <FaCss3Alt /> <span className="tech-text">HTML/CSS</span> | 
+              <FaHtml5 /> <span className="tech-text">JavaScript</span> | 
+              <DiMongodb /> <span className="tech-text">MongoDB</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

@@ -49,6 +49,18 @@ const Header = () => {
         </div>
         <img src={myPhoto} alt="Your Name" className="profile-image" />
       </div>
+      <div className="logo-mobile">
+        {/* Add the image on the left side */}
+        <img src={myPhoto} alt="Your Name" className="profile-image" />
+        <div>
+          <h1 className="name">Hi, I'am</h1>
+          <h1 className="name">Abubakry Olamilekan</h1>
+          {/* Display the dynamic phrase here with sliding animation */}
+          <h2 key={currentPhrase} className="phrase">
+            {phrases[currentPhrase]}
+          </h2>
+        </div>
+      </div>
       <nav>
         {/* <ul>
           <li><a href="#about">About</a></li>
